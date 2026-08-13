@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.moon/cache/
+.moon/toolchain/
+dist/
+coverage/
+apps/api/tmp/
+apps/worker/tmp/
+*.local

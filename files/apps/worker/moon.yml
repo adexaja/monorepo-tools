@@ -1,0 +1,9 @@
+language: go
+
+tasks:
+  build:
+    command: go build ./...
+  test:
+    command: go test ./...
+  lint:
+    command: go vet ./...

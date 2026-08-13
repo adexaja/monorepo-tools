@@ -1,0 +1,6 @@
+{
+  "name": "__PROJECT_SLUG__",
+  "private": true,
+  "packageManager": "bun@1.2.20",
+  "workspaces": ["apps/*", "packages/*"]
+}

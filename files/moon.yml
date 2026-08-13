@@ -1,0 +1,9 @@
+version: "1"
+
+projects:
+  web: "apps/web"
+  api: "apps/api"
+  worker: "apps/worker"
+  ui: "packages/ui"
+  contracts: "packages/contracts"
+  config: "packages/config"

@@ -1,0 +1,1 @@
+{ "name": "__PROJECT_SLUG__-ui", "private": true, "type": "module", "scripts": { "build": "tsc --noEmit", "lint": "tsc --noEmit", "test": "tsc --noEmit" }, "devDependencies": { "typescript": "^5.8.3" } }
