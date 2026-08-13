@@ -31,7 +31,7 @@ artifacts, or dependency directories.
 ```text
 apps/api       Go HTTP API (`/healthz`, `/api/v1/health`)
 apps/worker    Go background worker entrypoint
-apps/web       TypeScript web application placeholder
+apps/web       TypeScript web application placeholder (Tanstack, React, etc) -> Specify this when you already have a choice in AGENTS.md, otherwise the agents will be halucination
 packages/ui    Shared UI package placeholder
 packages/contracts  Shared API contract types
 packages/config     Shared runtime/config constants
