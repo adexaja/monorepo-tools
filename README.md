@@ -19,6 +19,9 @@ bun install
 moon run :test
 ```
 
+Run `bun install` in the generated project before invoking Moon; it provides
+the local TypeScript compiler used by the web and shared-package tasks.
+
 Arguments are destination, display name, and Go module path. The destination
 must not already exist. The generated project contains no git history, build
 artifacts, or dependency directories.

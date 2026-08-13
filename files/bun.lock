@@ -1,0 +1,47 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "__PROJECT_SLUG__",
+      "devDependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+    "apps/web": {
+      "name": "__PROJECT_SLUG__-web",
+      "devDependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+    "packages/config": {
+      "name": "__PROJECT_SLUG__-config",
+      "devDependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+    "packages/contracts": {
+      "name": "__PROJECT_SLUG__-contracts",
+      "devDependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+    "packages/ui": {
+      "name": "__PROJECT_SLUG__-ui",
+      "devDependencies": {
+        "typescript": "^5.8.3",
+      },
+    },
+  },
+  "packages": {
+    "__PROJECT_SLUG__-config": ["__PROJECT_SLUG__-config@workspace:packages/config"],
+
+    "__PROJECT_SLUG__-contracts": ["__PROJECT_SLUG__-contracts@workspace:packages/contracts"],
+
+    "__PROJECT_SLUG__-ui": ["__PROJECT_SLUG__-ui@workspace:packages/ui"],
+
+    "__PROJECT_SLUG__-web": ["__PROJECT_SLUG__-web@workspace:apps/web"],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+  }
+}

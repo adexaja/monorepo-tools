@@ -1,7 +1,7 @@
 # Template source tree
 
-This directory is the project skeleton used by `../create.sh`. If you are
-working directly here, bootstrap the Bun workspace before running Moon:
+This directory is the project skeleton used by `../create.sh`. Install the Bun
+workspace dependencies before running Moon:
 
 ```sh
 bun install
