@@ -1,1 +1,2 @@
--- Add the first application schema migration here.
+-- Application schema migrations belong here. Shoebox creates and manages its
+-- own queue tables when the worker opens its PostgreSQL store.

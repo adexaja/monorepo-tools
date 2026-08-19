@@ -1,1 +1,2 @@
-export const uiPackageName = "__PROJECT_SLUG__-ui";
+export { Button, type ButtonProps } from "./components/button";
+export { cn } from "./lib/utils";
